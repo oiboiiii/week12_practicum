@@ -170,7 +170,11 @@ const resultEleven = document.querySelector('#resultEleven');
 
 const makeEleven = () => {
 	//Ваш код
+	let resEleven = 81 % 2;
+	resultEleven.textContent = resEleven;
+
 };
+buttonEleven.addEventListener('click', makeEleven);
 
 //Добавьте слушатель события
 
