@@ -139,8 +139,10 @@ const resultNine = document.querySelector('#resultNine');
 const makeNine = () => {
 	const num1 = 4567;
 	//Ваш код
+	const delOstNine = num1 % 100;
+	resultNine.textContent = delOstNine;
 };
-
+buttonNine.addEventListener('click', makeNine);
 //Добавьте слушатель события
 
 //Задание 10
