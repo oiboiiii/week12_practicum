@@ -76,7 +76,11 @@ const makeFive = () => {
 	const num = 3;
 	const power = 4;
 	//Ваш код
+	let exp = Math.pow(num, power);
+	resultFive.textContent = exp;
+
 };
+buttonFive.addEventListener('click', makeFive);
 
 //Добавьте слушатель события
 
