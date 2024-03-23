@@ -7,7 +7,9 @@ const resultOne = document.querySelector('#resultOne');
 const makeOne = () => {
 	const num1 = 5;
 	const num2 = 10;
-	//Ваш код
+	const sum = num1 + num2;
+	console.log(sum);
+	resultOne.textContent = sum;
 };
 
 buttonOne.addEventListener('click', makeOne); //Слушатель уже добавлен
