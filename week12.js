@@ -154,7 +154,11 @@ const resultTen = document.querySelector('#resultTen');
 const makeTen = () => {
 	const str = 'Hello';
 	//Ваш код
+	let letterTen = str[2];
+	resultTen.textContent = letterTen;
+
 };
+buttonTen.addEventListener('click', makeTen);
 
 //Добавьте слушатель события
 
