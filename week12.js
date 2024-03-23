@@ -93,9 +93,10 @@ const resultSix = document.querySelector('#resultSix');
 const makeSix = () => {
 	const num1 = 20;
 	const num2 = 5;
-	//Ваш код
+	const del2 = num1 / num2;
+	resultSix.textContent = del2;
 };
-
+buttonSix.addEventListener('click', makeSix);
 //Добавьте слушатель события
 
 //Задание 7
@@ -108,8 +109,10 @@ const makeSeven = () => {
 	const num1 = 25;
 	const num2 = 7;
 	//Ваш код
+	const delOst = num1 % num2;
+	resultSeven.textContent = delOst;
 };
-
+buttonSeven.addEventListener('click', makeSeven);
 //Добавьте слушатель события
 
 //Задание 8
