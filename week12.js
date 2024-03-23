@@ -41,7 +41,10 @@ const makeThree = () => {
 	const num1 = 8;
 	const num2 = 4;
 	//Ваш код
+	const pr = num1 * num2;
+	resultThree.textContent = pr;
 };
+buttonThree.addEventListener('click', makeThree);
 
 //Добавьте слушатель события
 
