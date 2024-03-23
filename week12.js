@@ -58,7 +58,10 @@ const makeFour = () => {
 	const num1 = 16;
 	const num2 = 2;
 	//Ваш код
+	const del = num1 / num2;
+	resultFour.textContent = del;
 };
+buttonFour.addEventListener('click', makeFour);
 
 //Добавьте слушатель события
 
