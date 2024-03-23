@@ -124,8 +124,10 @@ const resultEight = document.querySelector('#resultEight');
 const makeEight = () => {
 	const num1 = 123;
 	//Ваш код
+	const delOstPr = num1 % 10;
+	resultEight.textContent = delOstPr;
 };
-
+buttonEight.addEventListener('click', makeEight);
 //Добавьте слушатель события
 
 //Задание 9
