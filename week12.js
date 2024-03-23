@@ -23,8 +23,11 @@ const resultTwo = document.querySelector('#resultTwo');
 const makeTwo = () => {
 	const num1 = 20;
 	const num2 = 7;
+	const dif = num1 - num2;
+	resultTwo.textContent = dif;
 	//Ваш код
 };
+buttonTwo.addEventListener('click', makeTwo);
 
 //Добавьте слушатель события
 
