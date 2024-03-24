@@ -405,8 +405,11 @@ const resultTwentySix = document.querySelector('#resultTwentySix');
 
 const makeTwentySix = () => {
 	//Ваш код
+	let rn = Math.random();
+	let rnFour = rn.toFixed(4);
+	resultTwentySix.textContent = rnFour;
 };
-
+buttonTwentySix.addEventListener('click', makeTwentySix);
 //Добавьте слушатель события
 
 //Задание 27
