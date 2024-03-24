@@ -448,8 +448,10 @@ const resultTwentyNine = document.querySelector('#resultTwentyNine');
 
 const makeTwentyNine = () => {
 	//Ваш код
+	let sqrt = Math.sqrt(16);
+	resultTwentyNine.textContent = sqrt;
 };
-
+buttonTwentyNine.addEventListener('click', makeTwentyNine);
 //Добавьте слушатель события
 
 //Задание 30
