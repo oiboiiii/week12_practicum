@@ -237,8 +237,11 @@ const resultFifteen = document.querySelector('#resultFifteen');
 const makeFifteen = () => {
 	const str = 'JavaScript';
 	//Ваш код
-};
+	let uC = str.toUpperCase();
+	resultFifteen.textContent = uC;
 
+};
+buttonFifteen.addEventListener('click', makeFifteen);
 //Добавьте слушатель события
 
 //Задание 16
