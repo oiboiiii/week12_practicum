@@ -316,8 +316,10 @@ const resultTwenty = document.querySelector('#resultTwenty');
 
 const makeTwenty = () => {
 	//Ваш код
+	let max = Math.max(10, 25, 5, 30, 15);
+	resultTwenty.textContent = max;
 };
-
+buttonTwenty.addEventListener('click', makeTwenty);
 //Добавьте слушатель события
 
 // Задание 21
