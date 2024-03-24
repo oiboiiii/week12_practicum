@@ -254,8 +254,10 @@ const resultSixteen = document.querySelector('#resultSixteen');
 const makeSixteen = () => {
 	const str = 'JavaScript';
 	//Ваш код
+	let subst = str.substring(3);
+	resultSixteen.textContent = subst;
 };
-
+buttonSixteen.addEventListener('click', makeSixteen);
 //Добавьте слушатель события
 
 //Задание 17
@@ -268,8 +270,10 @@ const resultSeventeen = document.querySelector('#resultSeventeen');
 const makeSeventeen = () => {
 	const str = 'JavaScript';
 	//Ваш код
+	let subs = str.substring(3, 7);
+	resultSeventeen.textContent = subs;
 };
-
+buttonSeventeen.addEventListener('click', makeSeventeen);
 //Добавьте слушатель события
 
 //Задание 18
