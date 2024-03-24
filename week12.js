@@ -285,8 +285,10 @@ const resultEighteen = document.querySelector('#resultEighteen');
 const makeEighteen = () => {
 	const str = 'Hello, world!';
 	//Ваш код
+	let rep = str.replace(/world/gi, "JavaScript");
+	resultEighteen.textContent = rep;
 };
-
+buttonEighteen.addEventListener('click', makeEighteen);
 //Добавьте слушатель события
 
 //Задание 19
