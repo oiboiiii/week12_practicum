@@ -361,8 +361,10 @@ const resultTwentyThree = document.querySelector('#resultTwentyThree');
 
 const makeTwentyThree = () => {
 	//Ваш код
+	let pow = Math.pow(2, 5);
+	resultTwentyThree.textContent = pow;
 };
-
+buttonTwentyThree.addEventListener('click', makeTwentyThree);
 //Добавьте слушатель события
 
 //Задание 24
