@@ -188,7 +188,11 @@ const makeTwelve = () => {
 	const str1 = 'Hello, ';
 	const str2 = 'World!';
 	//Ваш код
+	let resTwelwe = str1 + str2;
+	resultTwelve.textContent = resTwelwe;
+
 };
+buttonTwelve.addEventListener('click', makeTwelve);
 
 //Добавьте слушатель события
 
