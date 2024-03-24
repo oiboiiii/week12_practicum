@@ -300,7 +300,10 @@ const resultNineteen = document.querySelector('#resultNineteen');
 const makeNineteen = () => {
 	const str = 'Hello, world!';
 	//Ваш код
+	let sl = str.slice(7, 13);
+	resultNineteen.textContent = sl;
 };
+buttonNineteen.addEventListener('click', makeNineteen);
 
 //Добавьте слушатель события
 
