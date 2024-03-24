@@ -420,8 +420,10 @@ const resultTwentySeven = document.querySelector('#resultTwentySeven');
 
 const makeTwentySeven = () => {
 	//Ваш код
+	let random = Math.random() * (100 - 50) + 50;
+	resultTwentySeven.textContent = random;
 };
-
+buttonTwentySeven.addEventListener('click', makeTwentySeven);
 //Добавьте слушатель события
 
 //Задание 28
