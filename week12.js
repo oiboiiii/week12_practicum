@@ -462,6 +462,9 @@ const resultThirty = document.querySelector('#resultThirty');
 
 const makeThirty = () => {
 	//Ваш код
+	let sqrt = Math.sqrt(25);
+	resultThirty.textContent = sqrt;
 };
+buttonThirty.addEventListener('click', makeThirty);
 
 //Добавьте слушатель события
