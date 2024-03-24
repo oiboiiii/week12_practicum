@@ -221,8 +221,11 @@ const resultFourteen = document.querySelector('#resultFourteen');
 const makeFourteen = () => {
 	const str = 'JavaScript';
 	//Ваш код
-};
+	let lC = str.toLowerCase();
+	resultFourteen.textContent = lC;
 
+};
+buttonFourteen.addEventListener('click', makeFourteen);
 //Добавьте слушатель события
 
 //Задание 15
