@@ -205,7 +205,10 @@ const resultThirteen = document.querySelector('#resultThirteen');
 const makeThirteen = () => {
 	const str = 'JavaScript';
 	//Ваш код
+	let length = str.length;
+	resultThirteen.textContent = length;
 };
+buttonThirteen.addEventListener('click', makeThirteen);
 
 //Добавьте слушатель события
 
