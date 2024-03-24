@@ -330,8 +330,11 @@ const resultTwentyOne = document.querySelector('#resultTwentyOne');
 
 const makeTwentyOne = () => {
 	//Ваш код
+	let randNum = Math.random() * 10;
+	let randNumRounded = Math.round(randNum);
+	resultTwentyOne.textContent = randNumRounded;
 };
-
+buttonTwentyOne.addEventListener('click', makeTwentyOne);
 //Добавьте слушатель события
 
 //Задание 22
