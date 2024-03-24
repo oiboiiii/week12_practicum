@@ -434,8 +434,10 @@ const resultTwentyEight = document.querySelector('#resultTwentyEight');
 
 const makeTwentyEight = () => {
 	//Ваш код
+	let rounded = Math.ceil(4.47);
+	resultTwentyEight.textContent = rounded;
 };
-
+buttonTwentyEight.addEventListener('click', makeTwentyEight);
 //Добавьте слушатель события
 
 //Задание 29
