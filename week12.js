@@ -346,8 +346,10 @@ const resultTwentyTwo = document.querySelector('#resultTwentyTwo');
 
 const makeTwentyTwo = () => {
 	//Ваш код
+	let min = Math.min(10, 25, 5, 30, 15);
+	resultTwentyTwo.textContent = min;
 };
-
+buttonTwentyTwo.addEventListener('click', makeTwentyTwo);
 //Добавьте слушатель события
 
 //Задание 23
