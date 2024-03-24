@@ -375,8 +375,10 @@ const resultTwentyFour = document.querySelector('#resultTwentyFour');
 
 const makeTwentyFour = () => {
 	//Ваш код
+	let min = Math.min(7, 3, 11, 5, 9);
+	resultTwentyFour.textContent = min;
 };
-
+buttonTwentyFour.addEventListener('click', makeTwentyFour);
 //Добавьте слушатель события
 
 //Задание 25
@@ -387,7 +389,10 @@ const resultTwentyFive = document.querySelector('#resultTwentyFive');
 
 const makeTwentyFive = () => {
 	//Ваш код
+	let max = Math.max(7, 3, 11, 5, 9);
+	resultTwentyFive.textContent = max;
 };
+buttonTwentyFive.addEventListener('click', makeTwentyFive);
 
 //Добавьте слушатель события
 
